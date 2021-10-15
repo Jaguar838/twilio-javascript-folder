@@ -19,4 +19,4 @@ for (var i = 0; i < myArgs[0]; i++) {
     console.log("💩 ", i);
   }
 }
-// End of loopop
+// End of loop
