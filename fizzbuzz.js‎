@@ -1,23 +1,22 @@
 var myArgs = process.argv.slice(2);
-console.log('myArgs: ', myArgs);
- 
+console.log("myArgs: ", myArgs);
+
 // Initialize a for loop that iterates from 0 myArgs[0]
 
-for (var i = 0; i < myArgs[0] i++) { 
-  if (i%3 == 0) && (i%5 == 0){
-  console.log('🛰 ',i)
-  return
+for (var i = 0; i < myArgs[0]; i++) {
+  if (i % 3 == 0 && i % 5 == 0) {
+    console.log("🛰 ", i);
+    return;
   }
-  if (i%3 == 0){
-  console.log('👽 ',i)
-  return
+  if (i % 3 == 0) {
+    console.log("👽 ", i);
+    return;
   }
-  if (i%5 == 0){
-  console.log('🚀 ',i)
-  return
-  }
-  else {
-  console.log('💩 ',i)
+  if (i % 5 == 0) {
+    console.log("🚀 ", i);
+    return;
+  } else {
+    console.log("💩 ", i);
   }
 }
-// End of loop
+// End of loopop
